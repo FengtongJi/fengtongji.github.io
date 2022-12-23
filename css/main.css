@@ -299,6 +299,36 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
+/* Scroll Zone */
+
+	.scrollZone {
+		position: fixed;
+		width: 6rem;
+		height: 100vh;
+		cursor: -moz-grab;
+		cursor: -webkit-grab;
+		cursor: -ms-grab;
+		cursor: grab;
+		z-index: 10001;
+	}
+
+		.scrollZone.left {
+			left: 0;
+		}
+
+		.scrollZone.right {
+			right: 0;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.scrollZone {
+				display: none;
+			}
+
+		}
+
 /* Main */
 
 	#main {
