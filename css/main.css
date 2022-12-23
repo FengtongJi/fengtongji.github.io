@@ -71,7 +71,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("../images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/bluegrey.png");
+		background-image: url("../images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
 		background-image: url("../images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
 		background-image: url("../images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
 		background-image: url("../images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
@@ -86,7 +86,7 @@ input, select, textarea {
 		overflow-y: auto;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		body.cover *, body.cover *:before, body.cover *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -506,11 +506,11 @@ input, select, textarea {
 					transition-delay: 2s;
 				}
 
-		body.is-preload #main {
+		body.cover #main {
 			opacity: 0;
 		}
 
-			body.is-preload #main .item.thumb img {
+			body.cover #main .item.thumb img {
 				opacity: 0;
 			}
 
