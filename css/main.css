@@ -182,7 +182,8 @@ input, select, textarea {
     }
 
     nav ul li {
-        margin-right: 10px;
+        margin-right: 80%;
+        font-size: large;
     }
     nav ul li a {
         text-decoration: none;
