@@ -177,7 +177,7 @@ input, select, textarea {
 
 /* Navigator */
     nav ul {
-        display: flex;
+        display: block;
         list-style: none;
         text-align: right;
     }
