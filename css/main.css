@@ -179,12 +179,12 @@ input, select, textarea {
     nav ul {
         display: flex;
         list-style: none;
+        text-align: right;
     }
 
     nav ul li {
         margin-right: 2%;
         font-size: large;
-        text-align: right;
     }
     nav ul li a {
         text-decoration: none;
