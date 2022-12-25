@@ -160,7 +160,7 @@ input, select, textarea {
 
 		a:hover {
 			color: #fff;
-            text-decoration: bold;
+            text-decoration: underline;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -190,7 +190,7 @@ input, select, textarea {
         color: white;
     }
     nav ul li a:hover {
-        text-decoration: bold;
+        text-decoration: underline;
     }
 
 /* List */
