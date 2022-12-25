@@ -183,7 +183,7 @@ input, select, textarea {
     }
 
     nav ul li {
-        margin-right: 2%;
+        margin-left: 2%;
         font-size: large;
     }
     nav ul li a {
@@ -619,6 +619,11 @@ input, select, textarea {
 			}
 
 		}
+
+/* Header */
+
+    #header {
+    }
 
 /* Footer */
 
