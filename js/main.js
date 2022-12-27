@@ -5,7 +5,29 @@
 */
 
 /*My Header*/
-class myheader extends HTMLElement {
+class My Header extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = '
+        <header>
+            <a href=index.html><img src=#></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">Fengtong Ji</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publication.html">Publication</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+    '
+    }
+}
+
+customElements.define('my-header', My Header)
+
+/*My Footer*/
+class My Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = '
         <footer>
@@ -33,29 +55,7 @@ class myheader extends HTMLElement {
     }
 }
 
-customElements.define('myheader', myheader)
-
-/*My Footer*/
-class myfooter extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = '
-        <header>
-            <a href=index.html><img src=#></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cv.html">Fengtong Ji</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="publication.html">Publication</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-            </nav>
-        </header>
-    '
-    }
-}
-
-customElements.define('myfooter', myfooter)
+customElements.define('my-footer', My Footer)
 
 (function($) {
 
