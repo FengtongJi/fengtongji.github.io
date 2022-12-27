@@ -179,7 +179,7 @@ input, select, textarea {
     nav ul {
         display: block;
         list-style: none;
-        text-align: right;
+        text-align: left;
         margin-right: 2%;
     }
 
