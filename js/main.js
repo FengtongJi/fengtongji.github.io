@@ -3,7 +3,15 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+<head>
+    <title>Shaping the Future</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="keywords" content="fengtong ji">
+    <meta name="description" content="This is the research website of Fengtong Ji.">
+    <link rel="stylesheet" href="css/main.css">
+    <noscript><link rel="stylesheet" href="css/noscript.css"></noscript>
+</head>
 /*My Header*/
 class MyHeader extends HTMLElement {
     connectedCallback() {
