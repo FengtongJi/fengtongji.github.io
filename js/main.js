@@ -4,60 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/*My Header*/
-class MyHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = '
-            <header>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="cv.html">Fengtong Ji</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="publication.html">Publication</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <input id="srchbar" type="search" placeholder="Search">
-                    </ul>
-                </nav>
-            </header>
-        '
-    }
-}
-
-customElements.define('my-header', MyHeader)
-
-/*My Footer*/
-class MyFooter extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = '
-        <footer>
-            <section id="footer">
-                <section>
-                    <p>This is the website of Fengtong Ji. All rights reserved.</p>
-                    <p><i>To see a world in a grain of sand</i>, to shape a future for the betterment of mankind.</p>
-                </section>
-                <section>
-                    <ul class="icons">
-                        <li><a href="https://scholar.google.com.hk/citations?user=AlaD75sAAAAJ&hl=en" class="icon brands fa-google-scholar"><span class="label">Google Scholar</span></a></li>
-                        <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57191872760" class="icon brands fa-scopus"><span class="label">Scopus</span></a></li>
-                        <li><a href="https://www.researchgate.net/profile/Fengtong-Ji" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
-                        <li><a href="https://twitter.com/FengtongJi" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/fengtong-ji-535801115/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="mailto:jifengtong@outlook.com" class="icon solid fa-envelope"><span class="label">Email Me</span></a></li>
-                    </ul>
-                    <ul class="copyright">
-                        <li>&copy; 2022-2023</li>
-                        <li>Designed by Fengtong Ji</li>
-                    </ul>
-                </section>
-            </section>
-            </footer>
-        '
-    }
-}
-
-customElements.define('my-footer', MyFooter)
-
 (function($) {
 
 	var	$window = $(window),
