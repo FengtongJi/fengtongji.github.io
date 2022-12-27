@@ -402,6 +402,7 @@ class MyHeader extends HTMLElement {
                         <li><a href="research.html">Research</a></li>
                         <li><a href="publication.html">Publication</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
+                        <input id="srchbar" type="search" placeholder="Search">
                     </ul>
                 </nav>
             </header>
