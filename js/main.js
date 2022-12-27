@@ -37,14 +37,14 @@ class MyFooter extends HTMLElement {
                 </section>
                 <section>
                     <ul class="icons">
-                        <li><a href="https://scholar.google.com.hk/citations?user=AlaD75sAAAAJ&hl=en" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
+                        <li><a href="https://scholar.google.com.hk/citations?user=AlaD75sAAAAJ&hl=en" class="icon brands fa-google-scholar"><span class="label">Google Scholar</span></a></li>
                         <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57191872760" class="icon brands fa-scopus"><span class="label">Scopus</span></a></li>
                         <li><a href="https://twitter.com/FengtongJi" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
                         <li><a href="https://www.linkedin.com/in/fengtong-ji-535801115/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
                         <li><a href="mailto:jifengtong@outlook.com" class="icon solid fa-envelope"><span class="label">Email Me</span></a></li>
                     </ul>
                     <ul class="copyright">
-                        <li>&copy; 2022--2023</li>
+                        <li>&copy; 2022–2023</li>
                         <li>Designed by Fengtong Ji</li>
                     </ul>
                 </section>
