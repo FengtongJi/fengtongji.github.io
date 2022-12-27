@@ -179,12 +179,13 @@ input, select, textarea {
     nav ul {
         display: block;
         list-style: none;
-        text-align: left;
-        margin-right: 2%;
+        text-align: right;
+        margin-right: 3%;
     }
 
     nav ul li {
         font-size: large;
+        display: inline;
     }
     nav ul li a {
         text-decoration: none;
