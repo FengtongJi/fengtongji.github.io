@@ -3,17 +3,13 @@
     
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <script>
-    $(function(){
-        $('#header').load('header.html');
-    });
+    $(function(){$('#header').load('header.html');});
+    $(function(){$('#footer').load('footer.html');});
 </script>
     
 	<body class="cover">
         <div id="header"></div>
         
-  <!--    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"].; include($IPATH."header.html") ?> -->
-        
-
 		<div id="wrapper">
             
 			<section id="main">
@@ -30,7 +26,7 @@
 				</div>
 			</section>
 
-            <?php include($IPATH."footer.html") ?>
+            <div id="header"></div>
 		</div>
 	</body>
 </html>
