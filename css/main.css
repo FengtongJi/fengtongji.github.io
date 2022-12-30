@@ -180,13 +180,13 @@ input, select, textarea {
         display: block;
         list-style: none;
         text-align: right;
-        margin-right: 2%;
+        margin-right: 0%;
     }
 
     nav ul li {
         font-size: large;
         display: inline;
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
     nav ul li a {
         text-decoration: none;
