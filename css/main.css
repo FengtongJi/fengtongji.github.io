@@ -652,7 +652,7 @@ input, select, textarea {
 		}
 
 		#footer > section:last-child {
-			text-align: left;
+			text-align: right;
 			max-width: 36em;
 		}
 
