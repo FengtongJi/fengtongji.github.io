@@ -647,13 +647,13 @@ input, select, textarea {
 		#footer > section:first-child {
 			text-align: left;
 			max-width: 36em;
-			padding-right: 1em;
+			padding-right: 10em;
             padding-top: 8px;
 		}
 
 		#footer > section:last-child {
 			text-align: right;
-			max-width: 50em;
+			max-width: 36em;
 		}
 
 		#footer h2 {
