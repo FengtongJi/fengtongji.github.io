@@ -594,9 +594,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		position: fixed;
+		position: absolute;
+        bottom: 0px;
 		z-index: 10002;
 	}
+body {}
 
 		#footer > section:first-child {
 			text-align: left;
