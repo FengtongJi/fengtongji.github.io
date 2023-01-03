@@ -243,31 +243,7 @@
 				font-family: 'Font Awesome 5 Brands';
 			}
 		}
-	}
-
-/* Wrapper */
-
-	#wrapper {
-		min-height: 100vh;
-		@include vendor('display', 'flex');
-		@include vendor('flex-direction', 'column');
-		@include vendor('justify-content', 'space-between');
-		@include vendor('align-items', 'center');
-		@include vendor('transition', 'filter 0.5s ease-in-out');
-
-		&:before {
-			content: '';
-			display: block;
-		}
-
-		body.is-poptrox-visible & {
-			@include vendor('filter', 'blur(0.25em)');
-		}
-
-		@include breakpoint('<=small') {
-			min-height: 0;
-		}
-	}
+	}s
 
 /* Scroll Zone */
 

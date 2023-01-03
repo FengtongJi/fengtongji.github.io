@@ -1,14 +1,7 @@
-/*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
 		$body = $('body'),
-		$wrapper = $('#wrapper'),
 		$main = $('#main'),
 		settings = {
 
@@ -71,14 +64,6 @@
 
 			}
 
-		// IE: Fix min-height/flexbox.
-			if (browser.name == 'ie')
-				$wrapper.css('height', '100vh');
-
-		// iOS: Compensate for address bar.
-			if (browser.os == 'ios')
-				$wrapper.css('min-height', 'calc(100vh - 30px)');
-
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
@@ -109,33 +94,6 @@
 						.css('opacity', '0');
 
 				});
-
-	// Poptrox.
-		$main.poptrox({
-			onPopupOpen: function() { $body.addClass('is-poptrox-visible'); },
-			onPopupClose: function() { $body.removeClass('is-poptrox-visible'); },
-			overlayColor: '#1a1f2c',
-			overlayOpacity: 0.75,
-			popupCloserText: '',
-			popupLoaderText: '',
-			selector: '.item.thumb a.image',
-			caption: function($a) {
-				return $a.prev('h2').html();
-			},
-			usePopupDefaultStyling: false,
-			usePopupCloser: false,
-			usePopupCaption: true,
-			usePopupNav: true,
-			windowMargin: 50
-		});
-
-		breakpoints.on('>small', function() {
-			$main[0]._poptrox.windowMargin = 50;
-		});
-
-		breakpoints.on('<=small', function() {
-			$main[0]._poptrox.windowMargin = 0;
-		});
 
 	// Keyboard shortcuts.
 		if (settings.keyboardShortcuts.enabled)
@@ -355,7 +313,6 @@
 					};
 
 				$zones
-					.appendTo($wrapper)
 					.on('mouseleave mousedown', function(event) {
 						deactivate();
 					});
