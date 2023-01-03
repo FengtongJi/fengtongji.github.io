@@ -596,6 +596,7 @@ input, select, textarea {
 		justify-content: space-between;
 		position: relative;
 		z-index: 10002;
+        margin-top: auto;
 	}
 
 		#footer > section:first-child {
