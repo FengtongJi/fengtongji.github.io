@@ -599,6 +599,7 @@ input, select, textarea {
         height: flex;
 		z-index: 10002;
 	}
+body{min-height:100vh; margin:0;}
 
 		#footer > section:first-child {
 			text-align: left;
