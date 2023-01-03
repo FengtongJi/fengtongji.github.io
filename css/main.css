@@ -185,7 +185,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			font-size: 1.5em;
-			margin-left: 1em;
+			margin-left: 0.6em;
 		}
 
 			ul.icons li span {
