@@ -175,27 +175,6 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
-/* Navigator */
-    nav ul {
-        display: block;
-        list-style: none;
-        text-align: right;
-        margin-right: 0%;
-    }
-
-    nav ul li {
-        font-size: large;
-        display: inline;
-        padding: 12px 18px;
-    }
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-    }
-    nav ul li a:hover {
-        text-decoration: underline;
-    }
-
 /* List */
 
 	ul.icons {
@@ -625,6 +604,27 @@ input, select, textarea {
 /* Header */
 
      #header {
+    }
+
+/* Navigator */
+    nav ul {
+        display: block;
+        list-style: none;
+        text-align: right;
+        margin-right: 0%;
+    }
+
+    nav ul li {
+        font-size: large;
+        display: inline;
+        padding: 12px 18px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
     }
 
 /* Footer */
