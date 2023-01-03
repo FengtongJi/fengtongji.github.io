@@ -648,7 +648,7 @@ input, select, textarea {
 			text-align: left;
 			max-width: 36em;
 			padding-right: 1em;
-            padding-top: 1em;
+            padding-top: 8px;
 		}
 
 		#footer > section:last-child {
