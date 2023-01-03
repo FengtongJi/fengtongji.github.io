@@ -617,7 +617,7 @@ input, select, textarea {
     nav ul li {
         font-size: large;
         display: inline;
-        padding: 12px 18px;
+        padding: 12px 16px;
     }
     nav ul li a {
         text-decoration: none;
