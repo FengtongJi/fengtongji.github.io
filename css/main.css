@@ -558,6 +558,7 @@ input, select, textarea {
 /* Header */
 
      #header {
+         padding: 50px 12px;
     }
 
 /* Navigator */
