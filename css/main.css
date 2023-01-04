@@ -600,7 +600,10 @@ input, select, textarea {
         height: flex;
 		z-index: 10002;
 	}
-body{min-height:100vh; margin:0;}
+
+    body{min-height:100vh; margin:0;}
+
+    .emphasized {font-style: italic;}
 
 		#footer > section:first-child {
 			text-align: left;
