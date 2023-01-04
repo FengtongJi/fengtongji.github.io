@@ -558,7 +558,7 @@ input, select, textarea {
 /* Header */
 
      #header {
-         padding: 50px 12px;
+         padding: 20px 12px;
     }
 
 /* Navigator */
@@ -572,7 +572,6 @@ input, select, textarea {
     nav ul li {
         font-size: large;
         display: inline;
-        padding: 50px 12px;
     }
     nav ul li a {
         text-decoration: none;
