@@ -317,32 +317,6 @@ input, select, textarea {
 				border-right: solid 10px #ffffff;
 			}
 
-		#main .item {
-			-moz-flex-grow: 0;
-			-webkit-flex-grow: 0;
-			-ms-flex-grow: 0;
-			flex-grow: 0;
-			-moz-flex-shrink: 0;
-			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
-			flex-shrink: 0;
-			margin: 5px;
-			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
-		}
-
-			#main .item.span-1 {
-				width: 20em;
-			}
-
-			#main .item.span-2 {
-				width: 30em;
-			}
-
-			#main .item.span-3 {
-				width: 40em;
-			}
-
 /* Header */
 
      #header {
