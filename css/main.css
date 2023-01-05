@@ -306,23 +306,22 @@ input, select, textarea {
 		padding: 5px;
 	}
 
-		#main .items {
+		#main .content {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+            
+            text-align: left;
+            float: left;
+            width: 595px;
+            padding: 0;
 		}
 
-    #content{
-        text-align: left;
-        float: left;
-        width: 595px;
-        padding: 0;}
-
-    #content ul{
+    #main .content ul{
         margin: 2px 0 22px 0px;}
 
-    #content ul li{
+    #main .content ul li{
         list-style-type: none;
         background: url(bullet.png) no-repeat;
         margin: 0 0 6px 0;
