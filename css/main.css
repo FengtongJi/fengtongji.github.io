@@ -313,9 +313,21 @@ input, select, textarea {
 			display: flex;
 		}
 
-			#main .items > :last-child {
-				border-right: solid 10px #ffffff;
-			}
+    #content{
+        text-align: left;
+        float: left;
+        width: 595px;
+        padding: 0;}
+
+    #content ul{
+        margin: 2px 0 22px 0px;}
+
+    #content ul li{
+        list-style-type: none;
+        background: url(bullet.png) no-repeat;
+        margin: 0 0 6px 0;
+        padding: 0 0 4px 25px;
+        line-height: 1.5em;}
 
 /* Header */
 
