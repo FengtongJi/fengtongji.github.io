@@ -34,9 +34,11 @@ blockquote, q {
 		content: none;
 	}
 
-table {
+table, tr, td {
 	border-collapse: collapse;
 	border-spacing: 0;
+	width: 61.8%;
+	
 }
 
 body {
@@ -171,7 +173,7 @@ input, select, textarea {
 	
 	p {
 		color: #fff;
-		color: rgba(255, 255, 255, 0.98);
+		color: rgba(255, 255, 255, 0.95);
 	}
 
 	strong, b {
