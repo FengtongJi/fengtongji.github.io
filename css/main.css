@@ -168,6 +168,11 @@ input, select, textarea {
 		color: #fff;
 		letter-spacing: -0.05em;
 	}
+	
+	p {
+		color: #fff;
+		color: rgba(255, 255, 255, 0.98);
+	}
 
 	strong, b {
 		color: #fff;
