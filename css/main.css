@@ -313,8 +313,8 @@ input, select, textarea {
 			display: flex;
             
             text-align: left;
-            float: left;
-            width: 595px;
+            float: center;
+            width: 800px;
             padding: 0;
 		}
 
