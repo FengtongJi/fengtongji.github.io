@@ -321,8 +321,8 @@ input, select, textarea {
 			display: flex;
 			
             text-align: left;
-            float: center;
-            width: 800px;
+            float: left;
+            width: 61.8%;
             padding: 4px;
 		}
 
