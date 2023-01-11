@@ -311,11 +311,11 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-         <!--   
+			
             text-align: left;
             float: center;
             width: 800px;
-            padding: 0; -->
+            padding: 1em;
 		}
 
     #main .content ul{
