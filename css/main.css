@@ -88,7 +88,7 @@ input, select, textarea {
 		overflow-y: auto;
 	}
 
-		body.cover *, body.cover *:before, body.cover *:after {
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
