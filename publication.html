@@ -1,20 +1,56 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publication</title>
     
-<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-<script>
-    $(function(){$('#myheader').load('header.html');});
-    $(function(){$('#myfooter').load('footer.html');});
-</script>
+    <!-- Import jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     
+    <!-- Load header and footer using jQuery -->
+    <script>
+        $(function() {
+            $('#myheader').load('header.html');
+            $('#myfooter').load('footer.html');
+        });
+    </script>
+    
+    <!-- Add custom styles -->
+    <style>
+        body {
+            background-image: url('background.jpg');
+            opacity: 0.8;
+        }
+        #main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+        .content {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Load header -->
     <div id="myheader"></div>
     
-        <body class="cover">
-            <section id="main">
-                <ul>Ji, F., Wu, Y., Pumera, M. and Zhang, L. (2022) ‘Collective behaviors of active matter learning from natural taxes across scales’, Adv. Mater. Accepted Author Manuscript, p. 2203959. Link</ul>
-                
-            </section>
-        </body>
+    <!-- Main content -->
+    <section id="main">
+        <article class="content">
+            <ul>
+                <li>Ji, F., Wu, Y., Pumera, M. and Zhang, L. (2022) ‘Collective behaviors of active matter learning from natural taxes across scales’, Adv. Mater. Accepted Author Manuscript, p. 2203959. <a href="https://doi.org/10.1002/adma.202203959">Link</a></li>
+            </ul>
+        </article>
+    </section>
     
+    <!-- Load footer -->
     <div id="myfooter"></div>
+</body>
 </html>
