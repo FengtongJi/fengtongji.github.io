@@ -326,7 +326,8 @@ input, select, textarea {
 	#main .content table{
 	border-collapse: collapse;
 	margin-left:auto;
-	margin-right:auto;}
+	margin-right:auto;
+	width: 80%;} /*FJ*/
 
     #main .content ul{
         margin: 2px 0 22px 0px;}
