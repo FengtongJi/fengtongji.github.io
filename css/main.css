@@ -319,7 +319,9 @@ input, select, textarea {
             text-align: left;
             float: left;
             width: 80%;
-            padding: 80px;}
+            padding: 80px;
+	display: flex;
+	flex-direction: column;} /*FJ*/
 
 	#main .content table{
 	border-collapse: collapse;
@@ -327,9 +329,7 @@ input, select, textarea {
 	margin-right:auto;}
 
     #main .content ul{
-        margin: 2px 0 22px 0px;
-	display: flex;
-    	flex-direction: column;}
+        margin: 2px 0 22px 0px;}
 
     #main .content ul li{
         list-style-type: none;
