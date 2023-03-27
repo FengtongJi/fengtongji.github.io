@@ -327,7 +327,9 @@ input, select, textarea {
 	margin-right:auto;}
 
     #main .content ul{
-        margin: 2px 0 22px 0px;}
+        margin: 2px 0 22px 0px;
+	display: flex;
+    	flex-direction: column;}
 
     #main .content ul li{
         list-style-type: none;
