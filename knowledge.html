@@ -1,26 +1,61 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publication</title>
     
-<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-<script>
-    $(function(){$('#myheader').load('header.html');});
-    $(function(){$('#myfooter').load('footer.html');});
-</script>
+    <!-- Import jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     
+    <!-- Load header and footer using jQuery -->
+    <script>
+        $(function() {
+            $('#myheader').load('header.html');
+            $('#myfooter').load('footer.html');
+        });
+    </script>
+    
+    <!-- Custom styles -->
+    <style>
+        body {
+            background-image: url('background.jpg');
+            color: white;
+        }
+        #main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+        .content {
+            font-size: 16px;
+            line-height: 1;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body class="cover">
+    <!-- Load header -->
     <div id="myheader"></div>
     
-        <body class="cover">
-            <section id="main">
-                <li><a href="https://www.jove.com/v/51342/setting-up-simple-light-sheet-microscope-for-toto-imaging-c-elegans?language=English" target="_blank" rel="noopener noreferrer">Setting up simple light sheet microscope for toto imaging C elegans</a>
-                </li>
-                <li><a href="https://www.thermofisher.com/uk/en/home/life-science/cell-analysis/cell-analysis-learning-center/molecular-probes-school-of-fluorescence/imaging-basics/labeling-your-samples/different-ways-to-add-fluorescent-labels.html" target="_blank" rel="noopener noreferrer">Different ways to add fluroscent labels</a>
-                </li>
-                <li><a href="https://scikit-image.org" target="_blank" rel="noopener noreferrer">scikit: Image processing in Python</a>
-                </li>
-                
-                
-            </section>
-        </body>
+    <!-- Main content -->
+    <section id="main">
+        <article class="content">
+            <h2>May be useful for your research</h2>
+            <li><a href="https://www.jove.com/v/51342/setting-up-simple-light-sheet-microscope-for-toto-imaging-c-elegans?language=English" target="_blank" rel="noopener noreferrer">Setting up simple light sheet microscope for toto imaging C elegans</a>
+            </li>
+            <li><a href="https://www.thermofisher.com/uk/en/home/life-science/cell-analysis/cell-analysis-learning-center/molecular-probes-school-of-fluorescence/imaging-basics/labeling-your-samples/different-ways-to-add-fluorescent-labels.html" target="_blank" rel="noopener noreferrer">Different ways to add fluroscent labels</a>
+            </li>
+            <li><a href="https://scikit-image.org" target="_blank" rel="noopener noreferrer">scikit: Image processing in Python</a>
+            </li>
+            
+        </article>
+    </section>
     
+    <!-- Load footer -->
     <div id="myfooter"></div>
+</body>
 </html>

@@ -1,26 +1,58 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publication</title>
     
-<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-<script>
-    $(function(){$('#myheader').load('header.html');});
-    $(function(){$('#myfooter').load('footer.html');});
-</script>
+    <!-- Import jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     
+    <!-- Load header and footer using jQuery -->
+    <script>
+        $(function() {
+            $('#myheader').load('header.html');
+            $('#myfooter').load('footer.html');
+        });
+    </script>
+    
+    <!-- Custom styles -->
+    <style>
+        body {
+            background-image: url('background.jpg');
+            color: white;
+        }
+        #main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+        .content {
+            font-size: 16px;
+            line-height: 1;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body class="cover">
+    <!-- Load header -->
     <div id="myheader"></div>
     
-        <body class="cover">
-			<section id="main">
-				
-                
-                
-                
-                
-                
-                
-                
-			</section>
-        </body>
+    <!-- Main content -->
+    <section id="main">
+        <article class="content">
+            
+            <ul>
+            Engineering Living Active Matter System for Healthcare
+            </ul>
+            
+        </article>
+    </section>
     
+    <!-- Load footer -->
     <div id="myfooter"></div>
+</body>
 </html>
