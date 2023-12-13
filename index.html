@@ -36,23 +36,28 @@
             margin: 0;
             padding: 0;
         }
-
+        #typing-container {
+            display: inline-block;
+            position: relative;
+        }
         #typing-text {
-          font-size: 46px;
-          font-family: 'Source Sans Pro', monospace;
-          white-space: pre;
-          display: inline-block;
+            font-family: 'Courier New', monospace;
+            font-size: 24px;
+            white-space: pre;
+            display: inline-block;
         }
 
         #cursor {
-          font-size: 46px;
-          animation: blink-animation 0.8s step-end infinite;
+            font-size: 24px;
+            position: absolute;
+            bottom: 0;
+            animation: blink-animation 0.8s step-end infinite;
         }
 
         @keyframes blink-animation {
-          to {
-            visibility: hidden;
-          }
+            to {
+                visibility: hidden;
+            }
         }
     </style>
 </head>
@@ -64,38 +69,17 @@
     <section id="main">
         <article class="content">
             
-            <h1><strong id="typing-text"></strong><span id="cursor">&#9608;</span></h1>
+            <h1><strong>Engineering Living Active Matter System for Healthcare</strong></h1>
+            
+            <div id="typing-container">
+                <div id="typing-text">Your typed text goes here</div>
+                <span id="cursor">&#9608;</span>
+            </div>
             
         </article>
     </section>
     
     <!-- Load footer -->
     <div id="myfooter"></div>
-
-    <!-- Typing effect script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const typingTextElement = document.getElementById('typing-text');
-            const cursorElement = document.getElementById('cursor');
-            const textToType = 'Engineering Living Active Matter System for Healthcare';
-            let currentIndex = 0;
-
-            function typeText() {
-                typingTextElement.textContent += textToType[currentIndex];
-                currentIndex++;
-
-                if (currentIndex === textToType.length) {
-                    cursorElement.style.visibility = 'visible'; // Show the cursor
-                    setInterval(toggleCursor, 800); // Toggle cursor every 800ms
-                }
-            }
-
-            function toggleCursor() {
-                cursorElement.style.visibility = (cursorElement.style.visibility === 'hidden') ? 'visible' : 'hidden';
-            }
-
-            setInterval(typeText, 100);
-        });
-    </script>
 </body>
 </html>
