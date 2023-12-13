@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Publication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fengtong Ji</title>
     
     <!-- Import jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
@@ -35,6 +36,24 @@
             margin: 0;
             padding: 0;
         }
+
+        #typing-text {
+          font-size: 18px;
+          font-family: 'Courier New', monospace;
+          white-space: pre;
+          display: inline-block;
+        }
+
+        #cursor {
+          font-size: 18px;
+          animation: blink-animation 0.8s step-end infinite;
+        }
+
+        @keyframes blink-animation {
+          to {
+            visibility: hidden;
+          }
+        }
     </style>
 </head>
 <body class="cover">
@@ -45,12 +64,38 @@
     <section id="main">
         <article class="content">
             
-            <h1><strong>Engineering Living Active Matter System for Healthcare</strong></h1>
+            <h1><strong id="typing-text"></strong><span id="cursor">&#9608;</span></h1>
             
         </article>
     </section>
     
     <!-- Load footer -->
     <div id="myfooter"></div>
+
+    <!-- Typing effect script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const typingTextElement = document.getElementById('typing-text');
+            const cursorElement = document.getElementById('cursor');
+            const textToType = 'Engineering Living Active Matter System for Healthcare';
+            let currentIndex = 0;
+
+            function typeText() {
+                typingTextElement.textContent += textToType[currentIndex];
+                currentIndex++;
+
+                if (currentIndex === textToType.length) {
+                    cursorElement.style.visibility = 'visible'; // Show the cursor
+                    setInterval(toggleCursor, 800); // Toggle cursor every 800ms
+                }
+            }
+
+            function toggleCursor() {
+                cursorElement.style.visibility = (cursorElement.style.visibility === 'hidden') ? 'visible' : 'hidden';
+            }
+
+            setInterval(typeText, 100);
+        });
+    </script>
 </body>
 </html>
