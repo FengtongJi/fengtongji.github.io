@@ -87,7 +87,8 @@
             let currentIndex = 0;
 
             function typeText() {
-                typingTextElement.textContent += textToType[currentIndex];
+                typingTextElement.textContent = ''; // Clear the content before typing
+                typingTextElement.textContent += textToType.substring(0, currentIndex);
                 currentIndex++;
 
                 if (currentIndex === textToType.length) {
@@ -95,6 +96,7 @@
                     setInterval(toggleCursor, 800); // Toggle cursor every 800ms
                 }
             }
+
 
             function toggleCursor() {
                 cursorElement.style.visibility = (cursorElement.style.visibility === 'hidden') ? 'visible' : 'hidden';
