@@ -401,7 +401,7 @@ input, select, textarea {
         bottom: 0;
         height: flex;
 		z-index: 10002;
-        font-size: 11pt;
+        font-size: 1em;
 	}
 
     body{min-height:100vh; margin:0;}
@@ -413,11 +413,13 @@ input, select, textarea {
 			max-width: 36em;
 			padding-right: 1em;
             padding-top: 8px;
+            line-height: 0.68em;
 		}
 
 		#footer > section:last-child {
 			text-align: right;
 			max-width: 36em;
+            line-height: 0.68em;
 		}
 
 		#footer h2 {
@@ -430,7 +432,7 @@ input, select, textarea {
 			margin-left: 1em;
 			padding-left: 1em;
 			border-left: solid 1px rgba(255, 255, 255, 0.25);
-			line-height: 0.168em;
+			line-height: 1em;
 		}
 
 			#footer .copyright li:first-child {
