@@ -16,69 +16,6 @@
         });
     </script>
     
-    <!-- Custom styles -->
-    <style>
-        body {
-            background-image: url('background.jpg');
-            color: white;
-        }
-        #main {
-            width: 80%;
-            margin: 0 auto;
-            padding: 10px 0;
-        }
-        .content {
-            font-size: 16px;
-            line-height: 1;
-        }
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        #typing-container {
-                    display: inline-block;
-                    position: relative;
-        }
-        #typing-text {
-          font-size: 36px;
-          font-family: 'Source Sans Pro', monospace;
-          white-space: pre;
-          display: inline-block;
-          max-width: 100%; /* Set maximum width to 100% */
-        }
-
-        #cursor {
-          font-size: 36px;
-          width: 1px;
-          position: relative;
-          bottom: 0;
-          animation: blink-animation 0.8s step-end infinite;
-        }
-
-        @keyframes blink-animation {
-          to {
-            visibility: hidden;
-          }
-        }
-    </style>
-</head>
-<body class="cover">
-    <!-- Load header -->
-    <div id="myheader"></div>
-    
-    <!-- Main content -->
-    <section id="main">
-        <article class="content">
-            <div id="typing-container">
-                <h1><strong id="typing-text"></strong><span id="cursor">&#9608;</span></h1>
-            </div>
-        </article>
-    </section>
-    
-    <!-- Load footer -->
-    <div id="myfooter"></div>
-
     <!-- Typing effect script -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -105,5 +42,81 @@
             setInterval(typeText, 100);
         });
     </script>
+    
+    <!-- Custom styles -->
+    <style>
+        body {
+            background-image: url('background.jpg');
+            color: white;
+        }
+        #main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+        .content {
+            font-size: 16px;
+            line-height: 1;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #typing-container {
+            display: inline-block;
+            position: relative;
+            max-width: 100%;
+            text-align: left;
+        }
+
+        #typing-text {
+            font-size: 36px;
+            font-family: 'Source Sans Pro', monospace;
+            white-space: pre;
+            display: inline-block;
+        }
+
+        #cursor {
+            font-size: 36px;
+            width: 1px;
+            position: relative;
+            bottom: 0;
+            animation: blink-animation 0.8s step-end infinite;
+        }
+
+        @media screen and (min-width: 600px) {
+            /* Adjust font sizes for larger screens if needed */
+            #typing-text {
+                font-size: 36px;
+            }
+
+            #cursor {
+                font-size: 36px;
+            }
+        }
+
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body class="cover">
+    <!-- Load header -->
+    <div id="myheader"></div>
+    
+    <!-- Main content -->
+    <section id="main">
+        <article class="content">
+            <div id="typing-container">
+                <h1><strong id="typing-text"></strong><span id="cursor">&#9608;</span></h1>
+            </div>
+        </article>
+    </section>
+    
+    <!-- Load footer -->
+    <div id="myfooter"></div>
 </body>
 </html>
