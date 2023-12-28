@@ -422,7 +422,7 @@ input, select, textarea {
 			max-width: 36em;
             line-height: 0.8em;
             bottom: 1em;
-            right: em;
+            right: 1em;
 		}
 
 		#footer h2 {
@@ -455,11 +455,10 @@ input, select, textarea {
 				#footer > section:first-child {
 					width: 100%;
 					padding-right: 0;
-                    font-size: 1em;
 				}
 
 				#footer > section:last-child {
-					text-align: left;
+					text-align: right;
 					margin: 1.5em 0 0 0;
 					width: 100%;
 				}
