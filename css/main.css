@@ -416,6 +416,8 @@ input, select, textarea {
             line-height: 1.25em;
             bottom: 1em;
             left: 1em;
+            position: absolute;
+            width: 50%;
 		}
 
 		#footer > section:last-child {
@@ -424,6 +426,8 @@ input, select, textarea {
             line-height: 0.8em;
             bottom: 1em;
             right: 1em;
+            position: absolute;
+            width: 50%;
 		}
 
 		#footer h2 {
