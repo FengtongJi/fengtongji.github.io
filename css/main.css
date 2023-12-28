@@ -436,28 +436,6 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-		@media screen and (max-width: 980px) {
-
-			#footer {
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
-			}
-
-				#footer > section:first-child {
-					width: 100%;
-					padding-right: 0;
-				}
-
-				#footer > section:last-child {
-					text-align: left;
-					margin: 1.5em 0 0 0;
-					width: 100%;
-				}
-
-		}
-
 		@media screen and (max-width: 736px) {
 
 			#footer {
