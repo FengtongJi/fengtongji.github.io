@@ -336,10 +336,13 @@ input, select, textarea {
 	border-collapse: collapse;
 	margin-left:auto;
 	margin-right:auto;
-	width: 90%;} /*FJ*/
+	width: 90%;
+    font-size: 1em;
+    } /*FJ*/
 
     #main .content ul{
-        margin: 2px 0 22px 0px;}
+        margin: 2px 0 22px 0px;
+    }
 
     #main .content ul li{
         list-style-type: none;
