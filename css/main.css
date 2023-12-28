@@ -413,13 +413,13 @@ input, select, textarea {
 			max-width: 36em;
 			padding-right: 1em;
             padding-top: 8px;
-            line-height: 0.68em;
+            line-height: 1em;
 		}
 
 		#footer > section:last-child {
 			text-align: right;
 			max-width: 36em;
-            line-height: 0.68em;
+            line-height: 0.8em;
 		}
 
 		#footer h2 {
