@@ -423,7 +423,7 @@ input, select, textarea {
 		#footer > section:last-child {
 			text-align: right;
 			max-width: 36em;
-            line-height: 0.8em;
+            line-height: 1em;
             bottom: 1em;
             right: 2em;
             position: absolute;
