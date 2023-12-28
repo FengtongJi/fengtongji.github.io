@@ -331,7 +331,7 @@ input, select, textarea {
             padding-left: 5%;
             flex-direction: column;/*FJ*/
         }
-@media screen and (max-width: 1680px) {
+
     #main .content table{
         border-collapse: collapse;
         margin-left:auto;
@@ -339,7 +339,7 @@ input, select, textarea {
         width: 90%;
         font-size: 1em;
     } /*FJ*/
-}
+
     #main .content ul{
         margin: 2px 0 22px 0px;
     }
