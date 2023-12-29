@@ -105,10 +105,7 @@ input, select, textarea {
 				background-position: top left, bottom left, 50% 0%;
 			}
             
-            #typing-text {
-                    max-width: none; /* Remove maximum width for smaller screens */
-                    width: 100%; /* Make the text fill the available width */
-            }
+
 
 		}
 
