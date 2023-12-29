@@ -457,19 +457,21 @@ input, select, textarea {
 			#footer {
 				text-align: center;
 				padding: 3em;
-                position: relative;
+                
 			}
 
 				#footer > section:first-child {
+                    position: relative;
                     text-align: center;
-					width: 100%;
+					width: 90%;
                     bottom: auto;
                     left: auto;
 				}
 
 				#footer > section:last-child {
+                    position: relative;
                     text-align: center;
-					width: 100%;
+					width: 90%;
                     bottom: auto;
                     right: auto;
 				}
