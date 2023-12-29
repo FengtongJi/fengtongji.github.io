@@ -455,9 +455,9 @@ input, select, textarea {
                 margin:0;
             }
 			#footer {
-                position: relative;
 				text-align: center;
 				padding: 3em;
+                position: relative;
 			}
 
 				#footer > section:first-child {
