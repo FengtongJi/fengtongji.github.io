@@ -414,20 +414,11 @@ input, select, textarea {
 			padding-right: 1em;
             padding-top: 8px;
             line-height: 1.25em;
-            bottom: 1em;
-            left: 2em;
-            position: absolute;
-            width: 50%;
 		}
 
 		#footer > section:last-child {
 			text-align: right;
 			max-width: 36em;
-            line-height: 1em;
-            bottom: 1em;
-            right: 2em;
-            position: absolute;
-            width: 50%;
 		}
 
 		#footer h2 {
@@ -455,14 +446,22 @@ input, select, textarea {
 			}
 
 				#footer > section:first-child {
-					width: 100%;
 					padding-right: 0;
+                    bottom: 1em;
+                    left: 2em;
+                    position: absolute;
+                    width: 50%;
 				}
 
 				#footer > section:last-child {
 					text-align: right;
 					margin: 1em 0 0 0;
-					width: 100%;
+                    line-height: 1em;
+                    bottom: 1em;
+                    right: 2em;
+                    position: absolute;
+                    width: 50%;
+
 				}
 
 		}
