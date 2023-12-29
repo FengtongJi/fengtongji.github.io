@@ -203,11 +203,7 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-		@media screen and (max-width: 736px) {
-
-			ul.icons {
-				margin: 0 0 2em 0;
-			}
+		
 
 		}
 
@@ -451,8 +447,7 @@ input, select, textarea {
             }
 			#footer {
 				text-align: center;
-				padding: 0;
-                
+				padding: 3em;
 			}
 
 				#footer > section:first-child {
