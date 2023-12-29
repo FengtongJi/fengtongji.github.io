@@ -428,7 +428,7 @@ input, select, textarea {
 			}
 
 				#footer > section:first-child {
-                    position: relative;
+                    position: absolute;
                     padding-right: 0;
                     bottom: 0.68em;
                     left: 2em;
@@ -436,7 +436,7 @@ input, select, textarea {
 				}
 
 				#footer > section:last-child {
-                    position: relative;
+                    position: absolute;
 					margin: 1em 0 0 0;
                     bottom: 1em;
                     right: 2em;
@@ -448,9 +448,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
+                position: relative;
 				text-align: center;
 				padding: 3em;
-                position: center;
 			}
 
 				#footer > section:first-child {
