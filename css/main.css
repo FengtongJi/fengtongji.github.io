@@ -485,3 +485,4 @@ input, select, textarea {
 				}
 
 		}
+/* properties set in the children individually if DIFFERENT from being set in the mother #footer */
