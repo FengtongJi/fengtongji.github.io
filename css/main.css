@@ -469,14 +469,14 @@ input, select, textarea {
 			}
 
 				#footer > section:first-child {
-                    position: center;
                     text-align: center;
+                    position: center;
 					max-width: 100%;
 				}
 
 				#footer > section:last-child {
-                    position: center;
                     text-align: center;
+                    position: center;
 					max-width: 100%;
 				}
 
