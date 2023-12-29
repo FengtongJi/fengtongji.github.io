@@ -408,13 +408,13 @@ input, select, textarea {
 			padding-right: 1em;
             padding-top: 8px;
             line-height: 1.25em;
-            width: 100%;
+            width: 50%;
 		}
 
 		#footer > section:last-child {
 			text-align: right;
 			max-width: 36em;
-            width: 100%;
+            width: 50%;
 		}
 
 		#footer h2 {
