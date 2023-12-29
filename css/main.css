@@ -232,7 +232,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: "Font Awesome 5 Free";
+			font-family: "Font Awesome 6 Free";
 			font-weight: 400;
 		}
 
@@ -249,7 +249,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: "Font Awesome 5 Brands";
+			font-family: "Font Awesome 6 Brands";
 		}
 
 /* Scroll Zone */
@@ -343,8 +343,8 @@ input, select, textarea {
     }
     @media screen and (max-width: 736px) {
         #header {
-            padding: 1em; /* Adjust padding as needed */
-            text-align: center; /* Optional: Center the content */
+            padding: 1em;
+            text-align: center;
         }
     }
 
@@ -400,6 +400,7 @@ input, select, textarea {
             width: 100%;
             text-align: right;
 			max-width: 36em;
+            line-height: 1em;
 		}
 
 		#footer h2 {
@@ -436,11 +437,9 @@ input, select, textarea {
 
 				#footer > section:last-child {
                     position: absolute;
-                    text-align: right;
 					margin: 1em 0 0 0;
                     bottom: 1em;
                     right: 2em;
-                    line-height: 1em;
                     width: 50%;
 				}
 
