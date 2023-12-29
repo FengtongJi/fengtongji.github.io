@@ -403,18 +403,18 @@ input, select, textarea {
     .emphasized {font-style: italic;}
 
 		#footer > section:first-child {
-			text-align: left;
+            width: 100%;
+            text-align: left;
 			max-width: 36em;
 			padding-right: 1em;
             padding-top: 8px;
             line-height: 1.25em;
-            width: 100%;
-		}
+        }
 
 		#footer > section:last-child {
-			text-align: right;
-			max-width: 36em;
             width: 100%;
+            text-align: right;
+			max-width: 36em;
 		}
 
 		#footer h2 {
@@ -472,12 +472,20 @@ input, select, textarea {
                     text-align: center;
                     position: center;
 					max-width: 100%;
+                    width: 100%; /* Set to 100% width */
+                    bottom: auto; /* Remove the 'bottom' and 'left' properties */
+                    left: auto;
 				}
 
 				#footer > section:last-child {
                     text-align: center;
                     position: center;
 					max-width: 100%;
+                    width: 100%; /* Set to 100% width */
+                    bottom: auto; /* Remove the 'bottom' and 'right' properties */
+                    right: auto;
+                    margin-top: 1em; /* Add margin-top to create space between the sections */
+                    line-height: 1em;
 				}
 
 				#footer .copyright li {
