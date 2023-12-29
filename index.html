@@ -71,8 +71,6 @@
         }
 
         #typing-text {
-            
-            width: 100%; /* Make the text fill the available width */
             font-size: 36px;
             font-family: 'Source Sans Pro', monospace;
             white-space: pre;
@@ -91,6 +89,8 @@
             /* Adjust font sizes for larger screens if needed */
             #typing-text {
                 font-size: 36px;
+                max-width: none; /* Remove maximum width for smaller screens */
+                width: 100%; /* Make the text fill the available width */
             }
 
             #cursor {
