@@ -389,13 +389,7 @@ input, select, textarea {
 	#footer {
 		width: 100%;
 		padding: 1.5em;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
 		justify-content: space-between;
 		position: absolute;
         bottom: 0;
@@ -414,11 +408,13 @@ input, select, textarea {
 			padding-right: 1em;
             padding-top: 8px;
             line-height: 1.25em;
+            order: 2;
 		}
 
 		#footer > section:last-child {
 			text-align: right;
 			max-width: 36em;
+            order: 1;
 		}
 
 		#footer h2 {
@@ -451,6 +447,7 @@ input, select, textarea {
                     left: 2em;
                     position: absolute;
                     width: 50%;
+                    order: 1;
 				}
 
 				#footer > section:last-child {
@@ -461,7 +458,7 @@ input, select, textarea {
                     right: 2em;
                     position: absolute;
                     width: 50%;
-
+                    order: 2;
 				}
 
 		}
@@ -476,11 +473,13 @@ input, select, textarea {
 				#footer > section:first-child {
 					text-align: center;
 					max-width: 100%;
+                    order: 1;
 				}
 
 				#footer > section:last-child {
 					text-align: center;
 					max-width: 100%;
+                    order: 2;
 				}
 
 				#footer .copyright li {
