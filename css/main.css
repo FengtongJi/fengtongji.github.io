@@ -408,13 +408,13 @@ input, select, textarea {
 			padding-right: 1em;
             padding-top: 8px;
             line-height: 1.25em;
-            width: 50%;
+            width: 100%;
 		}
 
 		#footer > section:last-child {
 			text-align: right;
 			max-width: 36em;
-            width: 50%;
+            width: 100%;
 		}
 
 		#footer h2 {
@@ -442,20 +442,20 @@ input, select, textarea {
 			}
 
 				#footer > section:first-child {
-					padding-right: 0;
+                    position: absolute;
+                    padding-right: 0;
                     bottom: 1em;
                     left: 2em;
-                    position: absolute;
                     width: 50%;
 				}
 
 				#footer > section:last-child {
-					text-align: right;
+                    position: absolute;
+                    text-align: right;
 					margin: 1em 0 0 0;
-                    line-height: 1em;
                     bottom: 1em;
                     right: 2em;
-                    position: absolute;
+                    line-height: 1em;
                     width: 50%;
 				}
 
@@ -469,15 +469,15 @@ input, select, textarea {
 			}
 
 				#footer > section:first-child {
-					text-align: center;
-					max-width: 100%;
                     position: center;
+                    text-align: center;
+					max-width: 100%;
 				}
 
 				#footer > section:last-child {
-					text-align: center;
-					max-width: 100%;
                     position: center;
+                    text-align: center;
+					max-width: 100%;
 				}
 
 				#footer .copyright li {
