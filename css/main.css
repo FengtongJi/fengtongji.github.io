@@ -383,7 +383,7 @@ input, select, textarea {
         font-size: 1em;
 	}
 
-    body{min-height:100vh; margin:0;}
+    
 
     .emphasized {font-style: italic;}
 
@@ -430,7 +430,7 @@ input, select, textarea {
 				#footer > section:first-child {
                     position: absolute;
                     padding-right: 0;
-                    bottom: 1em;
+                    bottom: 0.68em;
                     left: 2em;
                     width: 50%;
 				}
