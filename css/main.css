@@ -435,7 +435,7 @@ input, select, textarea {
                     padding-right: 0;
                     bottom: 0.68em;
                     left: 2em;
-                    width: 100%;
+                    width: 50%;
 				}
 
 				#footer > section:last-child {
@@ -443,7 +443,7 @@ input, select, textarea {
 					margin: 1em 0 0 0;
                     bottom: 1em;
                     right: 2em;
-                    width: 100%;
+                    width: 50%;
 				}
 
 		}
@@ -462,14 +462,14 @@ input, select, textarea {
 
 				#footer > section:first-child {
                     text-align: center;
-					max-width: 100%;
+					width: 100%;
                     bottom: auto;
                     left: auto;
 				}
 
 				#footer > section:last-child {
                     text-align: center;
-					max-width: 100%;
+					width: 100%;
                     bottom: auto;
                     right: auto;
 				}
