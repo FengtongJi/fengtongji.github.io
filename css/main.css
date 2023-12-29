@@ -450,25 +450,21 @@ input, select, textarea {
 			#footer {
 				text-align: center;
 				padding: 3em;
+                position: center;
 			}
 
 				#footer > section:first-child {
                     text-align: center;
-                    position: center;
 					max-width: 100%;
-                    width: 100%;
                     bottom: auto;
                     left: auto;
 				}
 
 				#footer > section:last-child {
                     text-align: center;
-                    position: center;
 					max-width: 100%;
-                    width: 100%;
                     bottom: auto;
                     right: auto;
-                    line-height: 1em;
 				}
 
 				#footer .copyright li {
