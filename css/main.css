@@ -37,22 +37,11 @@ blockquote, q {
 table, tr, td {
 	border-collapse: collapse;
 	border-spacing: 1em;
-	color: #fff;
 	color: rgba(255, 255, 255, 0.9);
 }
 
 body {
 	-webkit-text-size-adjust: none;
-}
-
-mark {
-	background-color: transparent;
-	color: inherit;
-}
-
-input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
 }
 
 input, select, textarea {
@@ -151,7 +140,6 @@ input, select, textarea {
 		}
 
 	a {
-		color: #fff;
 		color: rgba(255, 255, 255, 0.85);
 		text-decoration: none;
 		-moz-transition: color 0.25s ease-in-out;
@@ -173,12 +161,10 @@ input, select, textarea {
 	}
 	
 	p {
-		color: #fff;
 		color: rgba(255, 255, 255, 0.95);
 	}
 
 	strong, b {
-		color: #fff;
 		color: rgba(255, 255, 255, 0.85);
 		font-weight: 600;
 	}
@@ -233,7 +219,6 @@ input, select, textarea {
 /* Icons */
 
 	.icon {
-		text-decoration: none;
 		position: relative;
 		text-decoration: none;
 	}
