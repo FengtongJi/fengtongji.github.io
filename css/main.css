@@ -472,8 +472,8 @@ input, select, textarea {
                     text-align: center;
                     position: center;
 					max-width: 100%;
-                    width: 100%; /* Set to 100% width */
-                    bottom: auto; /* Remove the 'bottom' and 'left' properties */
+                    width: 100%;
+                    bottom: auto;
                     left: auto;
 				}
 
@@ -481,10 +481,9 @@ input, select, textarea {
                     text-align: center;
                     position: center;
 					max-width: 100%;
-                    width: 100%; /* Set to 100% width */
-                    bottom: auto; /* Remove the 'bottom' and 'right' properties */
+                    width: 100%;
+                    bottom: auto;
                     right: auto;
-                    margin-top: 1em; /* Add margin-top to create space between the sections */
                     line-height: 1em;
 				}
 
