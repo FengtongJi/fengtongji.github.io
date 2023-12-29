@@ -471,11 +471,13 @@ input, select, textarea {
 				#footer > section:first-child {
 					text-align: center;
 					max-width: 100%;
+                    position: center;
 				}
 
 				#footer > section:last-child {
 					text-align: center;
 					max-width: 100%;
+                    position: center;
 				}
 
 				#footer .copyright li {
