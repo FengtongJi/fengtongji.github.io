@@ -383,7 +383,7 @@ input, select, textarea {
         font-size: 1em;
 	}
 
-    
+    body{min-height:100vh; margin:0;}
 
     .emphasized {font-style: italic;}
 
