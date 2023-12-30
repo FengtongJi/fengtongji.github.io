@@ -449,6 +449,7 @@ input, select, textarea {
                 flex-direction: column;
                 min-height:100vh;
                 margin:0;
+                max-width: 100%;
             }
             
 			#footer {
