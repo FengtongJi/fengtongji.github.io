@@ -452,6 +452,7 @@ input, select, textarea {
             }
 			#footer {
 				text-align: center;
+                max-width: 100%;
 			}
 
 				#footer > section:first-child {
