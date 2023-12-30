@@ -451,13 +451,12 @@ input, select, textarea {
             }
 			#footer {
 				text-align: center;
-	
 			}
 
 				#footer > section:first-child {
                     position: relative;
                     text-align: center;
-					width: 90%;
+					width: 100%;
                     bottom: auto;
                     left: auto;
 				}
@@ -466,7 +465,7 @@ input, select, textarea {
                     position: relative;
                     margin: 1em 0 0 0;
                     text-align: center;
-					width: 90%;
+					width: 100%;
                     bottom: auto;
                     right: auto;
 				}
