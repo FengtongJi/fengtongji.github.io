@@ -208,6 +208,11 @@ input, select, textarea {
 			ul.icons {
 				margin: 0 0 0.5em 0;
 			}
+                ul.icons li {
+                    display: inline-block;
+                    margin-left: 0.6em;
+                    line-height: 2;
+                }
 
 		}
 
@@ -444,14 +449,15 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+            
             body {
                 flex-direction: column;
                 min-height:100vh;
                 margin:0;
             }
+            
 			#footer {
 				text-align: center;
-                width: 100%;
 			}
 
 				#footer > section:first-child {
