@@ -111,33 +111,9 @@ input, select, textarea {
 		font-family: 'Source Sans Pro';
 		font-weight: 400;
 		padding: 0;
-		font-size: 15pt;
+		font-size: 11pt;
 		color: rgba(255, 255, 255, 0.6);
 	}
-
-		@media screen and (max-width: 2560px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
 
 	a {
 		color: rgba(255, 255, 255, 0.85);
