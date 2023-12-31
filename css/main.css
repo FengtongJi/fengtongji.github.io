@@ -294,6 +294,8 @@ input, select, textarea {
         margin-right:auto;
         width: 90%;
         font-size: 1em;
+        cellspacing: 0em;
+        cellpadding: 0em;
     } /*FJ*/
 
     #main .content ul{
