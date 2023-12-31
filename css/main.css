@@ -430,6 +430,7 @@ input, select, textarea {
             
 			#footer {
 				text-align: center;
+                height: 1em;
 			}
 
 				#footer > section:first-child {
