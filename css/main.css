@@ -138,7 +138,8 @@ input, select, textarea {
 	
 	p {
 		color: rgba(255, 255, 255, 0.95);
-        margin-bottom: 1em;
+        margin-top: 0.2em;
+        margin-bottom: 0.8em;
 	}
 
 	strong, b {
