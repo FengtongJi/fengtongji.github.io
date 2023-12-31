@@ -298,23 +298,25 @@ input, select, textarea {
 
     #main .content ul{
         margin: 2px 0 22px 0px;
+        padding-left: 2em;
     }
 
     #main .content ul li{
         list-style-type: none;
         margin: 0 0 6px 0;
-        padding: 0 0 4px 25px;
+        padding: 0;
         line-height: 1.5em;
     }
 
     #main .content ol{
         margin: 2px 0 22px 0px;
+        padding-left: 2em;
     }
 
     #main .content ol li{
-        list-style-type: none;
+        list-style-type: decimal;
         margin: 0 0 6px 0;
-        padding: 0 0 4px 25px;
+        padding: 0;
         line-height: 1.5em;
     }
 
@@ -433,7 +435,6 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
             
             body {
-                flex-direction: column;
                 min-height:100vh;
                 margin:0;
                 max-width: 100%;
