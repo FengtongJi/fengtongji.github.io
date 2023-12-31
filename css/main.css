@@ -291,7 +291,7 @@ input, select, textarea {
     #main .content table{
         border-collapse: collapse;
         margin-left:auto;
-        margin-right:0;
+        margin-right:auto;
         width: 90%;
         font-size: 1em;
     } /*FJ*/
@@ -451,6 +451,7 @@ input, select, textarea {
 					width: 100%;
                     bottom: auto;
                     left: auto;
+                    line-height: 1.25em;
 				}
 
 				#footer > section:last-child {
@@ -460,6 +461,7 @@ input, select, textarea {
 					width: 100%;
                     bottom: auto;
                     right: auto;
+                    line-height: 1.25em;
 				}
 
 				#footer .copyright li {
