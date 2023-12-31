@@ -302,7 +302,17 @@ input, select, textarea {
 
     #main .content ul li{
         list-style-type: none;
-        background: url(bullet.png) no-repeat;
+        margin: 0 0 6px 0;
+        padding: 0 0 4px 25px;
+        line-height: 1.5em;
+    }
+
+    #main .content ol{
+        margin: 2px 0 22px 0px;
+    }
+
+    #main .content ol li{
+        list-style-type: none;
         margin: 0 0 6px 0;
         padding: 0 0 4px 25px;
         line-height: 1.5em;
