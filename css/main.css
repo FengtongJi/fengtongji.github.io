@@ -265,7 +265,6 @@ input, select, textarea {
 		transition-delay: 0.5s;
 		position: relative;
 		z-index: 1;
-		
 		max-width: 100vw;
 		overflow-x: hidden;
 		-webkit-overflow-scrolling: touch;
@@ -277,7 +276,6 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			
             text-align: left;
             float: left;
             width: 100%;
