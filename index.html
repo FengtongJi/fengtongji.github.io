@@ -69,8 +69,9 @@
         #typing-text {
             font-size: 2em;
             font-family: 'Source Sans Pro', monospace;
-            white-space: pre;
+            white-space: pre-wrap;
             display: inline-block;
+            max-width: 100%;
         }
 
         #cursor {
@@ -81,27 +82,23 @@
         }
 
         @media screen and (min-width: 2560px) {
+            
             /* Adjust font sizes for larger screens if needed */
             #typing-text {
                 max-width: none; /* Remove maximum width for smaller screens */
                 width: 100%; /* Make the text fill the available width */
             }
 
-            #cursor {
-                font-size: 2em;
-            }
         }
         
         @media screen and (min-width: 736px) {
+            
             /* Adjust font sizes for larger screens if needed */
             #typing-text {
                 max-width: none; /* Remove maximum width for smaller screens */
                 width: 100%; /* Make the text fill the available width */
             }
-
-            #cursor {
-                font-size: 2em;
-            }
+            
         }
 
         @keyframes blink-animation {
