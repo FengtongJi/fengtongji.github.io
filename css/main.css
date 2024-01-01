@@ -7,277 +7,277 @@ small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, l
 form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;}
+    display: block;}
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
 
 table, tr, td {
-	border-collapse: collapse;
-	border-spacing: 1em;
-	color: rgba(255, 255, 255, 0.9);
+    border-collapse: collapse;
+    border-spacing: 1em;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 body {
-	-webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 input, select, textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
 }
 
 /* Basic*/
 
-	html {
-		box-sizing: border-box;
-	}
+    html {
+        box-sizing: border-box;
+    }
 
-	*, *:before, *:after {
-		box-sizing: inherit;
-	}
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
 
-	body {
-		background-image: url("../images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
-		background-image: url("../images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
-		background-image: url("../images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
-		background-image: url("../images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
-		background-position: top left, bottom left, auto;
-		background-size: auto, 100% 100%, cover;
-		background-attachment: fixed;
-		background-repeat: repeat, no-repeat, auto;
-		position: relative;
-		background-color: #150C07;
-		line-height: 1.75em;
-		overflow-x: hidden;
-		overflow-y: auto;
-	}
+    body {
+        background-image: url("../images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
+        background-image: url("../images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
+        background-image: url("../images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
+        background-image: url("../images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../images/background.jpg");
+        background-position: top left, bottom left, auto;
+        background-size: auto, 100% 100%, cover;
+        background-attachment: fixed;
+        background-repeat: repeat, no-repeat, auto;
+        position: relative;
+        background-color: #150C07;
+        line-height: 1.75em;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+        body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+            -moz-animation: none !important;
+            -webkit-animation: none !important;
+            -ms-animation: none !important;
+            animation: none !important;
+            -moz-transition: none !important;
+            -webkit-transition: none !important;
+            -ms-transition: none !important;
+            transition: none !important;
+        }
 
-		@media screen and (max-width: 1280px) {
+        @media screen and (max-width: 1280px) {
 
-			body {
-				background-attachment: scroll;
-			}
+            body {
+                background-attachment: scroll;
+            }
 
-		}
+        }
 
-		@media screen and (max-width: 736px) {
+        @media screen and (max-width: 736px) {
 
-			body {
-				background-attachment: scroll;
-				background-size: auto, 100% 100%, 250% auto;
-				background-repeat: repeat, no-repeat, no-repeat;
-				background-position: top left, bottom left, 50% 0%;
-			}
+            body {
+                background-attachment: scroll;
+                background-size: auto, 100% 100%, 250% auto;
+                background-repeat: repeat, no-repeat, no-repeat;
+                background-position: top left, bottom left, 50% 0%;
+            }
 
-		}
+        }
 
-	body, input, select, textarea {
-		font-family: 'Source Sans Pro';
-		font-weight: 400;
-		padding: 0;
-		font-size: 11pt;
-		color: rgba(255, 255, 255, 0.8);
-	}
+    body, input, select, textarea {
+        font-family: 'Source Sans Pro';
+        font-weight: 400;
+        padding: 0;
+        font-size: 11pt;
+        color: rgba(255, 255, 255, 0.8);
+    }
 
-	a {
-		color: rgba(255, 255, 255, 0.85);
-		text-decoration: none;
-		-moz-transition: color 0.25s ease-in-out;
-		-webkit-transition: color 0.25s ease-in-out;
-		-ms-transition: color 0.25s ease-in-out;
-		transition: color 0.25s ease-in-out;
-	}
+    a {
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        -moz-transition: color 0.25s ease-in-out;
+        -webkit-transition: color 0.25s ease-in-out;
+        -ms-transition: color 0.25s ease-in-out;
+        transition: color 0.25s ease-in-out;
+    }
 
-		a:hover {
-			color: #fff;
+        a:hover {
+            color: #fff;
             text-decoration: underline;
-		}
+        }
 
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-		color: #fff;
-		letter-spacing: -0.05em;
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: -0.05em;
         margin-bottom: 10px; /* You can adjust the value as needed */
-	}
-	
-	p {
-		color: rgba(255, 255, 255, 0.95);
+    }
+    
+    p {
+        color: rgba(255, 255, 255, 0.95);
         margin-top: 0.2em;
         margin-bottom: 0.8em;
-	}
+    }
 
-	strong, b {
-		color: rgba(255, 255, 255, 0.85);
-		font-weight: 600;
-	}
+    strong, b {
+        color: rgba(255, 255, 255, 0.85);
+        font-weight: 600;
+    }
 
 /* List */
 
-	ul.icons {
-		cursor: default;
-		margin: 0 0 0.5em 0;
-	}
+    ul.icons {
+        cursor: default;
+        margin: 0 0 0.5em 0;
+    }
 
-		ul.icons li {
-			display: inline-block;
-			font-size: 1.5em;
-			margin-left: 0.6em;
-		}
+        ul.icons li {
+            display: inline-block;
+            font-size: 1.5em;
+            margin-left: 0.6em;
+        }
 
-			ul.icons li span {
-				display: none;
-			}
+            ul.icons li span {
+                display: none;
+            }
 
-			ul.icons li a {
-				opacity: 0.35;
-				color: #fff;
-				-moz-transition: opacity 0.25s ease-in-out;
-				-webkit-transition: opacity 0.25s ease-in-out;
-				-ms-transition: opacity 0.25s ease-in-out;
-				transition: opacity 0.25s ease-in-out;
-			}
+            ul.icons li a {
+                opacity: 0.35;
+                color: #fff;
+                -moz-transition: opacity 0.25s ease-in-out;
+                -webkit-transition: opacity 0.25s ease-in-out;
+                -ms-transition: opacity 0.25s ease-in-out;
+                transition: opacity 0.25s ease-in-out;
+            }
 
-				ul.icons li a:hover {
-					opacity: 1.0;
-				}
+                ul.icons li a:hover {
+                    opacity: 1.0;
+                }
 
-			ul.icons li:first-child {
-				margin-left: 0;
-			}
+            ul.icons li:first-child {
+                margin-left: 0;
+            }
 
-		@media screen and (max-width: 736px) {
+        @media screen and (max-width: 736px) {
 
-			ul.icons {
-				margin: 0 0 0.5em 0;
-			}
+            ul.icons {
+                margin: 0 0 0.5em 0;
+            }
 
-		}
+        }
 
 /* Icons */
 
-	.icon {
-		position: relative;
-		text-decoration: none;
-	}
+    .icon {
+        position: relative;
+        text-decoration: none;
+    }
 
-		.icon:before {
-			-moz-osx-font-smoothing: white;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: "Font Awesome 6 Free";
-			font-weight: 400;
-		}
+        .icon:before {
+            -moz-osx-font-smoothing: white;
+            -webkit-font-smoothing: antialiased;
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            line-height: 1;
+            text-transform: none !important;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 400;
+        }
 
-		.icon:before {
-			line-height: inherit;
-		}
+        .icon:before {
+            line-height: inherit;
+        }
 
-		.icon > .label {
-			display: none;
-		}
+        .icon > .label {
+            display: none;
+        }
 
-		.icon.solid:before {
-			font-weight: 900;
-		}
+        .icon.solid:before {
+            font-weight: 900;
+        }
 
-		.icon.brands:before {
-			font-family: "Font Awesome 6 Brands";
-		}
+        .icon.brands:before {
+            font-family: "Font Awesome 6 Brands";
+        }
 
 /* Scroll Zone */
 
-	.scrollZone {
-		position: fixed;
-		width: 6rem;
-		height: 100vh;
-		cursor: -moz-grab;
-		cursor: -webkit-grab;
-		cursor: -ms-grab;
-		cursor: grab;
-		z-index: 10001;
-	}
+    .scrollZone {
+        position: fixed;
+        width: 6rem;
+        height: 100vh;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+        cursor: -ms-grab;
+        cursor: grab;
+        z-index: 10001;
+    }
 
-		.scrollZone.left {
-			left: 0;
-		}
+        .scrollZone.left {
+            left: 0;
+        }
 
-		.scrollZone.right {
-			right: 0;
-		}
+        .scrollZone.right {
+            right: 0;
+        }
 
-		@media screen and (max-width: 736px) {
+        @media screen and (max-width: 736px) {
 
-			.scrollZone {
-				display: none;
-			}
+            .scrollZone {
+                display: none;
+            }
 
-		}
+        }
 
 /* Main */
 
-	#main {
-		-moz-transition: opacity 1s ease-in-out;
-		-webkit-transition: opacity 1s ease-in-out;
-		-ms-transition: opacity 1s ease-in-out;
-		transition: opacity 1s ease-in-out;
-		-moz-transition-delay: 0.5s;
-		-webkit-transition-delay: 0.5s;
-		-ms-transition-delay: 0.5s;
-		transition-delay: 0.5s;
-		position: relative;
-		z-index: 1;
-		max-width: 100vw;
-		overflow-x: hidden;
-		-webkit-overflow-scrolling: touch;
-		padding: 8px;
-	}
+    #main {
+        -moz-transition: opacity 1s ease-in-out;
+        -webkit-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+        -moz-transition-delay: 0.5s;
+        -webkit-transition-delay: 0.5s;
+        -ms-transition-delay: 0.5s;
+        transition-delay: 0.5s;
+        position: relative;
+        z-index: 1;
+        max-width: 100vw;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding: 8px;
+    }
 
-		#main .content {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
+        #main .content {
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
             text-align: left;
             float: left;
             width: 100%;
@@ -357,17 +357,17 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
-		width: 100%;
-		padding: 1.5em;
-		display: flex;
-		justify-content: space-between;
-		position: absolute;
+    #footer {
+        width: 100%;
+        padding: 1.5em;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
         bottom: 0;
         height: flex;
-		z-index: 10002;
+        z-index: 10002;
         font-size: 1em;
-	}
+    }
 
     body{
         min-height:100vh;
@@ -376,65 +376,62 @@ input, select, textarea {
 
     .emphasized {font-style: italic;}
 
-		#footer > section:first-child {
+        #footer > section:first-child {
             width: 100%;
             text-align: left;
-			max-width: 36em;
-			padding-right: 1em;
+            max-width: 36em;
+            padding-right: 1em;
             padding-top: 8px;
             line-height: 1.25em;
         }
 
-		#footer > section:last-child {
+        #footer > section:last-child {
             width: 100%;
             text-align: right;
-			max-width: 36em;
+            max-width: 36em;
             line-height: 1em;
-		}
+        }
 
-		#footer h2 {
-			font-size: 2.25em;
-			margin: 0 0 1em 0;
-		}
+        #footer h2 {
+            font-size: 2.25em;
+            margin: 0 0 1em 0;
+        }
 
-		#footer .copyright li {
-			display: inline-block;
-			margin-left: 1em;
-			padding-left: 1em;
-			border-left: solid 1px rgba(255, 255, 255, 0.25);
-		}
+        #footer .copyright li {
+            display: inline-block;
+            margin-left: 1em;
+            padding-left: 1em;
+        }
+        #footer .copyright li:last-child {
+            border-left: solid 1px rgba(255, 255, 255, 0.25);
+                }
 
-			#footer .copyright li:first-child {
-				border-left: 0;
-				margin-left: 0;
-				padding-left: 0;
-			}
 
-		@media screen and (max-width: 2560px) {
+        @media screen and (max-width: 2560px) {
 
-			#footer {
+            #footer {
                 flex-direction: column;
-			}
+            }
 
-				#footer > section:first-child {
+                #footer > section:first-child {
                     position: absolute;
                     padding-right: 0;
                     bottom: 0.68em;
-                    left: 2em;
+                    left: 0em;
                     width: 50%;
-				}
+                }
 
-				#footer > section:last-child {
+                #footer > section:last-child {
                     position: absolute;
-					margin: 1em 0 0 0;
+                    margin: 0em 0 0 0;
                     bottom: 1em;
                     right: 2em;
                     width: 50%;
-				}
+                }
 
-		}
+        }
 
-		@media screen and (max-width: 736px) {
+        @media screen and (max-width: 736px) {
             
             body {
                 min-height:100vh;
@@ -442,36 +439,36 @@ input, select, textarea {
                 max-width: 100%;
             }
             
-			#footer {
-				text-align: center;
+            #footer {
+                text-align: center;
                 height: 1em;
-			}
+            }
 
-				#footer > section:first-child {
+                #footer > section:first-child {
                     position: relative;
                     text-align: center;
-					width: 100%;
+                    width: 100%;
                     bottom: auto;
                     left: auto;
                     line-height: 1em;
-				}
+                }
 
-				#footer > section:last-child {
+                #footer > section:last-child {
                     position: relative;
                     margin: 1em 0 0 0;
                     text-align: center;
-					width: 100%;
+                    width: 100%;
                     bottom: auto;
                     right: auto;
                     line-height: 1.25em;
-				}
+                }
 
-				#footer .copyright li {
-					display: block;
-					padding-left: 0;
-					border-left: 0;
+                #footer .copyright li {
+                    display: block;
+                    padding-left: 0;
+                    border-left: 0;
                     margin-top: 0;
-				}
+                }
 
-		}
+        }
 /* properties set in the children individually if DIFFERENT from being set in the mother #footer */
