@@ -16,33 +16,6 @@
         });
     </script>
     
-    <!-- Typing effect script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const typingTextElement = document.getElementById('typing-text');
-            const cursorElement = document.getElementById('cursor');
-            const textToType = 'Micro/Nanorobotic Engineering Biology for Healthcare';
-            let currentIndex = 0;
-
-            function typeText() {
-                typingTextElement.textContent = ''; // Clear the content before typing
-                typingTextElement.textContent += textToType.substring(0, currentIndex);
-                currentIndex++;
-
-                if (currentIndex === textToType.length) {
-                    cursorElement.style.visibility = 'visible'; // Show the cursor
-                    setInterval(toggleCursor, 800); // Toggle cursor every 800ms
-                }
-            }
-
-            function toggleCursor() {
-                cursorElement.style.visibility = (cursorElement.style.visibility === 'hidden') ? 'visible' : 'hidden';
-            }
-
-            setInterval(typeText, 100);
-        });
-    </script>
-    
     <!-- Custom styles -->
     <style>
         #main {
@@ -116,12 +89,43 @@
     <section id="main">
         <article class="content">
             <div id="typing-container">
-                <h1><strong id="typing-text"></strong><span id="cursor">&#9608;</span></h1>
+                <h1>
+                    <strong id="typing-text"></strong>
+                    <span id="cursor">&#9608;</span>
+                </h1>
             </div>
         </article>
     </section>
     
     <!-- Load footer -->
     <div id="myfooter"></div>
+    
+    <!-- Typing effect script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const typingTextElement = document.getElementById('typing-text');
+            const cursorElement = document.getElementById('cursor');
+            const textToType = 'Micro/Nanorobotic Engineering Biology for Healthcare';
+            let currentIndex = 0;
+
+            function typeText() {
+                typingTextElement.textContent = ''; // Clear the content before typing
+                typingTextElement.textContent += textToType.substring(0, currentIndex);
+                currentIndex++;
+
+                if (currentIndex === textToType.length) {
+                    cursorElement.style.visibility = 'visible'; // Show the cursor
+                    setInterval(toggleCursor, 800); // Toggle cursor every 800ms
+                }
+            }
+
+            function toggleCursor() {
+                cursorElement.style.visibility = (cursorElement.style.visibility === 'hidden') ? 'visible' : 'hidden';
+            }
+
+            setInterval(typeText, 100);
+        });
+    </script>
+    
 </body>
 </html>
