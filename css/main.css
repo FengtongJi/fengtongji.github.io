@@ -379,7 +379,7 @@ input, select, textarea {
         #footer > section:first-child {
             width: 100%;
             text-align: left;
-            max-width: 36em;
+            max-width: auto;
             padding-right: 1em;
             padding-top: 8px;
             line-height: 1.25em;
@@ -388,7 +388,7 @@ input, select, textarea {
         #footer > section:last-child {
             width: 100%;
             text-align: right;
-            max-width: 36em;
+            max-width: auto;
             line-height: 1em;
         }
 
@@ -403,10 +403,6 @@ input, select, textarea {
             padding-left: 1em;
             padding-bottom: 0.5em;
         }
-        #footer .copyright li:last-child {
-            border-left: solid 1px rgba(255, 255, 255, 0.25);
-                }
-
 
         @media screen and (max-width: 2560px) {
 
@@ -432,7 +428,7 @@ input, select, textarea {
 
         }
 
-        @media screen and (max-width: 736px) {
+        @media screen and (max-width: 830px) {
             
             body {
                 min-height:100vh;
