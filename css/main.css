@@ -460,12 +460,5 @@ input, select, textarea {
                     line-height: 1.25em;
                 }
 
-                #footer .copyright li {
-                    display: block;
-                    padding-left: 0;
-                    border-left: 0;
-                    margin-top: 0;
-                }
-
         }
 /* properties set in the children individually if DIFFERENT from being set in the mother #footer */
