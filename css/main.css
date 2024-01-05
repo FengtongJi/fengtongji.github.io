@@ -280,7 +280,7 @@ input, select, textarea {
             display: flex;
             text-align: left;
             float: left;
-            width: 100%;
+            width: 80%;
             padding-top: 10%;
             padding-right: 5%;
             padding-bottom: 10%;
@@ -288,39 +288,39 @@ input, select, textarea {
             flex-direction: column;/*FJ*/
         }
 
-    #main .content table{
-        border-collapse: collapse;
-        margin-left:auto;
-        margin-right:auto;
-        width: 90%;
-        font-size: 1em;
-        cellspacing: 0em;
-        cellpadding: 0em;
-    } /*FJ*/
+            #main .content table{
+                border-collapse: collapse;
+                margin-left:auto;
+                margin-right:auto;
+                width: 90%;
+                font-size: 1em;
+                cellspacing: 0em;
+                cellpadding: 0em;
+            } /*FJ*/
 
-    #main .content ul{
-        margin: 0 0 1em 0;
-        padding-left: 1.5em;
-    }
+            #main .content ul{
+                margin: 0 0 1em 0;
+                padding-left: 1.5em;
+            }
 
-    #main .content ul li{
-        list-style-type: none;
-        margin: 0 0 0.5em 0;
-        padding: 0;
-        line-height: 1.5em;
-    }
+            #main .content ul li{
+                list-style-type: none;
+                margin: 0 0 0.5em 0;
+                padding: 0;
+                line-height: 1.5em;
+            }
 
-    #main .content ol{
-        margin: 2px 0 22px 0px;
-        padding-left: 2em;
-    }
+            #main .content ol{
+                margin: 2px 0 22px 0px;
+                padding-left: 2em;
+            }
 
-    #main .content ol li{
-        list-style-type: decimal;
-        margin: 0 0 6px 0;
-        padding: 0;
-        line-height: 1.5em;
-    }
+            #main .content ol li{
+                list-style-type: decimal;
+                margin: 0 0 6px 0;
+                padding: 0;
+                line-height: 1.5em;
+            }
 
 /* Header */
 
