@@ -313,13 +313,13 @@ input, select, textarea {
             }
 
             #main .content ol{
-                margin: 2px 0 22px 0px;
+                margin: 0 0 0 0;
                 padding-left: 2em;
             }
 
             #main .content ol li{
                 list-style-type: decimal;
-                margin: 0 0 6px 0;
+                margin: 0 0 0.5em 0;
                 padding: 0;
                 line-height: 1.5em;
             }
