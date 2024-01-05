@@ -270,7 +270,7 @@ input, select, textarea {
         max-width: 100vw;
         overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
-        padding: 8px;
+        padding: 0 0 0 2em;
     }
 
         #main .content {
@@ -299,13 +299,13 @@ input, select, textarea {
     } /*FJ*/
 
     #main .content ul{
-        margin: 2px 0 22px 0px;
-        padding-left: 2.5em;
+        margin: 0 0 1em 0;
+        padding-left: 1.5em;
     }
 
     #main .content ul li{
         list-style-type: none;
-        margin: 0 0 6px 0;
+        margin: 0 0 0.5em 0;
         padding: 0;
         line-height: 1.5em;
     }
