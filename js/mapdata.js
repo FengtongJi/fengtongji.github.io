@@ -629,12 +629,6 @@ var simplemaps_worldmap_mapdata={
       lat: 48.856614,
       lng: 2.3522219
     },
-    "5": {
-      lat: "22.302711",
-      lng: "114.177216",
-      name: "Hong Kong"
-    }
-  },
   regions: {
     "0": {
       name: "North America",
