@@ -133,7 +133,32 @@ input, select, textarea {
         font-weight: 400;
         color: #fff;
         letter-spacing: -0.05em;
-        margin-bottom: 10px; /* You can adjust the value as needed */
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1.17em;
+    }
+
+    h4 {
+      font-size: 1em;
+    }
+
+    h5 {
+      font-size: 0.83em;
+    }
+
+    h6 {
+      font-size: 0.67em;
     }
     
     p {
@@ -270,7 +295,7 @@ input, select, textarea {
         max-width: 100vw;
         overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
-        padding: 8px;
+        padding: 0 0 0 2em;
     }
 
         #main .content {
@@ -286,41 +311,43 @@ input, select, textarea {
             padding-bottom: 10%;
             padding-left: 5%;
             flex-direction: column;/*FJ*/
+            font-size: 1em;
+            line-height: 1.5;
         }
 
-    #main .content table{
-        border-collapse: collapse;
-        margin-left:auto;
-        margin-right:auto;
-        width: 90%;
-        font-size: 1em;
-        cellspacing: 0em;
-        cellpadding: 0em;
-    } /*FJ*/
+            #main .content table{
+                border-collapse: collapse;
+                margin-left:auto;
+                margin-right:auto;
+                width: 90%;
+                font-size: 1em;
+                cellspacing: 0em;
+                cellpadding: 0em;
+            } /*FJ*/
 
-    #main .content ul{
-        margin: 2px 0 22px 0px;
-        padding-left: 2em;
-    }
+            #main .content ul{
+                margin: 0 0 1em 0;
+                padding-left: 1.5em;
+            }
 
-    #main .content ul li{
-        list-style-type: none;
-        margin: 0 0 6px 0;
-        padding: 0;
-        line-height: 1.5em;
-    }
+            #main .content ul li{
+                list-style-type: none;
+                margin: 0 0 0.5em 0;
+                padding: 0;
+                line-height: 1.5em;
+            }
 
-    #main .content ol{
-        margin: 2px 0 22px 0px;
-        padding-left: 2em;
-    }
+            #main .content ol{
+                margin: 0 0 0 0;
+                padding-left: 2em;
+            }
 
-    #main .content ol li{
-        list-style-type: decimal;
-        margin: 0 0 6px 0;
-        padding: 0;
-        line-height: 1.5em;
-    }
+            #main .content ol li{
+                list-style-type: decimal;
+                margin: 0 0 0.5em 0;
+                padding: 0;
+                line-height: 1.5em;
+            }
 
 /* Header */
 
