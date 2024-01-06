@@ -624,10 +624,11 @@ var simplemaps_worldmap_mapdata={
       lat: 31.230393,
       lng: 121.473704
     },
-    "4": {
+      "4": {
       name: "Paris",
       lat: 48.856614,
       lng: 2.3522219
+      }
     },
   regions: {
     "0": {
