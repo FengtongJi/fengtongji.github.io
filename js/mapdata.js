@@ -605,19 +605,19 @@ var simplemaps_worldmap_mapdata={
   },
   locations: {
     "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74.0059731
+      name: "Hong Kong",
+      lat: 22.3193,
+      lng: 114.1694
     },
     "1": {
-      name: "London",
-      lat: 51.5073346,
-      lng: -0.1276831
+      name: "Harbin",
+      lat: 45.7567,
+      lng: 126.6424
     },
     "2": {
-      name: "Sydney",
-      lat: -33.8674869,
-      lng: 151.2069902
+      name: "Beijing",
+      lat: 39.9042,
+      lng: 116.4074
     },
     "3": {
       name: "Shanghai",
@@ -625,9 +625,39 @@ var simplemaps_worldmap_mapdata={
       lng: 121.473704
     },
       "4": {
-      name: "Paris",
-      lat: 48.856614,
-      lng: 2.3522219
+      name: "Chicago",
+      lat: 41.8781,
+      lng: 87.6298
+      }
+      "5": {
+      name: "Israel",
+      lat: 31.0461,
+      lng: 34.8516
+      }
+      "6": {
+      name: "Osaka",
+      lat: 34.6937,
+      lng: 135.5023
+      }
+      "7": {
+      name: "Kyoto",
+      lat: 35.0116,
+      lng: 135.7681
+      }
+      "8": {
+      name: "Nara",
+      lat: 34.6851,
+      lng: 135.8048
+      }
+      "9": {
+      name: "Nagoya",
+      lat: 35.1815,
+      lng: 136.9066
+      }
+      "10": {
+      name: "Phuket",
+      lat: 7.8804,
+      lng: 98.3923
       }
     },
   regions: {
