@@ -703,6 +703,16 @@ var simplemaps_worldmap_mapdata={
       name: "Bangkok"
       lat: 13.7563,
       lng: 100.5018
+      },
+      "19": {
+      name: "London"
+      lat: 51.5072,
+      lng: 0.1276
+      },
+      "20": {
+      name: "Cambridge"
+      lat: 52.1951,
+      lng: 0.1313
       }
     },
   regions: {
