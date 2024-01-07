@@ -680,37 +680,37 @@ var simplemaps_worldmap_mapdata={
       lng: 114.3052
       },
       "15": {
-      name: "Shenzhen"
+      name: "Shenzhen",
       lat: 22.5429,
       lng: 114.0596
       },
       "16": {
-      name: "Glasgow"
+      name: "Glasgow",
       lat: 55.8617,
       lng: 4.2583
       },
       "17": {
-      name: "Edinburgh"
+      name: "Edinburgh",
       lat: 55.9533,
       lng: 3.1883
       },
       "18": {
-      name: "Highland"
+      name: "Highland",
       lat: 57.4596,
       lng: 4.2264
       },
       "18": {
-      name: "Bangkok"
+      name: "Bangkok",
       lat: 13.7563,
       lng: 100.5018
       },
       "19": {
-      name: "London"
+      name: "London",
       lat: 51.5072,
       lng: 0.1276
       },
       "20": {
-      name: "Cambridge"
+      name: "Cambridge",
       lat: 52.1951,
       lng: 0.1313
       }
