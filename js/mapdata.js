@@ -605,19 +605,19 @@ var simplemaps_worldmap_mapdata={
   },
   locations: {
     "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74.0059731
+      name: "Hong Kong",
+      lat: 22.3193,
+      lng: 114.1694
     },
     "1": {
-      name: "London",
-      lat: 51.5073346,
-      lng: -0.1276831
+      name: "Harbin",
+      lat: 45.7567,
+      lng: 126.6424
     },
     "2": {
-      name: "Sydney",
-      lat: -33.8674869,
-      lng: 151.2069902
+      name: "Beijing",
+      lat: 39.9042,
+      lng: 116.4074
     },
     "3": {
       name: "Shanghai",
@@ -625,9 +625,94 @@ var simplemaps_worldmap_mapdata={
       lng: 121.473704
     },
       "4": {
-      name: "Paris",
-      lat: 48.856614,
-      lng: 2.3522219
+      name: "Chicago",
+      lat: 41.8781,
+      lng: 87.6298
+      },
+      "5": {
+      name: "Israel",
+      lat: 31.0461,
+      lng: 34.8516
+      },
+      "6": {
+      name: "Osaka",
+      lat: 34.6937,
+      lng: 135.5023
+      },
+      "7": {
+      name: "Kyoto",
+      lat: 35.0116,
+      lng: 135.7681
+      },
+      "8": {
+      name: "Nara",
+      lat: 34.6851,
+      lng: 135.8048
+      },
+      "9": {
+      name: "Nagoya",
+      lat: 35.1815,
+      lng: 136.9066
+      },
+      "10": {
+      name: "Phuket",
+      lat: 7.8804,
+      lng: 98.3923
+      },
+      "11": {
+      name: "Changchun",
+      lat: 31.6538,
+      lng: 120.7522
+      },
+      "12": {
+      name: "Dalian",
+      lat: 38.9140,
+      lng: 121.6147
+      },
+      "13": {
+      name: "Xi'an",
+      lat: 34.2658,
+      lng: 108.9541
+      },
+      "14": {
+      name: "Wuhan",
+      lat: 30.5928,
+      lng: 114.3052
+      },
+      "15": {
+      name: "Shenzhen"
+      lat: 22.5429,
+      lng: 114.0596
+      },
+      "16": {
+      name: "Glasgow"
+      lat: 55.8617,
+      lng: 4.2583
+      },
+      "17": {
+      name: "Edinburgh"
+      lat: 55.9533,
+      lng: 3.1883
+      },
+      "18": {
+      name: "Highland"
+      lat: 57.4596,
+      lng: 4.2264
+      },
+      "18": {
+      name: "Bangkok"
+      lat: 13.7563,
+      lng: 100.5018
+      },
+      "19": {
+      name: "London"
+      lat: 51.5072,
+      lng: 0.1276
+      },
+      "20": {
+      name: "Cambridge"
+      lat: 52.1951,
+      lng: 0.1313
       }
     },
   regions: {
