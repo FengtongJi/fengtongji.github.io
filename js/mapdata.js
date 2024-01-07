@@ -658,6 +658,51 @@ var simplemaps_worldmap_mapdata={
       name: "Phuket",
       lat: 7.8804,
       lng: 98.3923
+      },
+      "11": {
+      name: "Changchun",
+      lat: 31.6538,
+      lng: 120.7522
+      },
+      "12": {
+      name: "Dalian",
+      lat: 38.9140,
+      lng: 121.6147
+      },
+      "13": {
+      name: "Xi'an",
+      lat: 34.2658,
+      lng: 108.9541
+      },
+      "14": {
+      name: "Wuhan",
+      lat: 30.5928,
+      lng: 114.3052
+      },
+      "15": {
+      name: "Shenzhen"
+      lat: 22.5429,
+      lng: 114.0596
+      },
+      "16": {
+      name: "Glasgow"
+      lat: 55.8617,
+      lng: 4.2583
+      },
+      "17": {
+      name: "Edinburgh"
+      lat: 55.9533,
+      lng: 3.1883
+      },
+      "18": {
+      name: "Highland"
+      lat: 57.4596,
+      lng: 4.2264
+      },
+      "18": {
+      name: "Bangkok"
+      lat: 13.7563,
+      lng: 100.5018
       }
     },
   regions: {
