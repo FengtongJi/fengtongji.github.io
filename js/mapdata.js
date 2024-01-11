@@ -627,7 +627,7 @@ var simplemaps_worldmap_mapdata={
       "4": {
       name: "Chicago",
       lat: 41.8781,
-      lng: 87.6298
+      lng: -87.6298
       },
       "5": {
       name: "Israel",
@@ -687,17 +687,17 @@ var simplemaps_worldmap_mapdata={
       "16": {
       name: "Glasgow",
       lat: 55.8617,
-      lng: 4.2583
+      lng: -4.2583
       },
       "17": {
       name: "Edinburgh",
       lat: 55.9533,
-      lng: 3.1883
+      lng: -3.1883
       },
       "18": {
       name: "Highland",
       lat: 57.4596,
-      lng: 4.2264
+      lng: -4.2264
       },
       "18": {
       name: "Bangkok",
@@ -707,12 +707,17 @@ var simplemaps_worldmap_mapdata={
       "19": {
       name: "London",
       lat: 51.5072,
-      lng: 0.1276
+      lng: -0.1276
       },
       "20": {
       name: "Cambridge",
       lat: 52.1951,
       lng: 0.1313
+      },
+      "21": {
+      name: "Bristol",
+      lat: 51.4545,
+      lng: 2.5879
       }
     },
   regions: {
