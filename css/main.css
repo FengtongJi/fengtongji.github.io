@@ -432,7 +432,7 @@ input, select, textarea {
             line-height:1.25em;
         }
 
-        @media screen and (max-width: 2560px) {
+        @media screen and (max-width: 3840px) {
 
             #footer {
                 flex-direction: column;
