@@ -695,7 +695,7 @@ var simplemaps_worldmap_mapdata={
       lng: -3.1883
       },
       "18": {
-      name: "Highland",
+      name: "Highlands",
       lat: 57.4596,
       lng: -4.2264
       },
@@ -718,6 +718,16 @@ var simplemaps_worldmap_mapdata={
       name: "Bristol",
       lat: 51.4545,
       lng: 2.5879
+      },
+      "22": {
+      name: "Norwich",
+      lat: 52.6293,
+      lng: 1.2979
+      },
+      "22": {
+      name: "Bordeaux",
+      lat: 44.8378,
+      lng: -0.5792
       }
     },
   regions: {
