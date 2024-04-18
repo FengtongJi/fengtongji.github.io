@@ -717,7 +717,7 @@ var simplemaps_worldmap_mapdata={
       "21": {
       name: "Bristol",
       lat: 51.4545,
-      lng: 2.5879
+      lng: -2.5879
       },
       "22": {
       name: "Norwich",
