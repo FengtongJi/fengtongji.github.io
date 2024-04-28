@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Knowledge</title>
+        
+        <!-- Import jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        
+        <!-- Load header and footer using jQuery -->
+        <script>
+            $(function() {
+                $('#myheader').load('header.html');
+                $('#myfooter').load('footer.html');
+            });
+        </script>
+        
+    <!-- Custom styles -->
+        <style>
+            #main {
+                width: 80%;
+                margin: 0 auto;
+                padding: 10px 0;
+            }
+        </style>
+        
+</head>
+<body class="cover">
+    <!-- Load header -->
+    <div id="myheader"></div>
+    
+    <!-- Main content -->
+    <section id="main">
+        <article class="content">
+            <h2>Equality, Diversity and Inclusion (ED&I)</h2>
+            <ul>
+                <li><a href="https://www.equality.admin.cam.ac.uk" target="_blank" rel="noopener noreferrer">ED&I at the University of Cambridge</a></li>
+            </ul>
+            
+        </article>
+    </section>
+    
+    <!-- Load footer -->
+    <div id="myfooter"></div>
+</body>
+</html>
