@@ -312,7 +312,7 @@ input, select, textarea {
             padding-bottom: 10%;
             padding-left: 5%;
             flex-direction: column;/*FJ*/
-            font-size: 1em;
+            font-size: 1.2em;
             line-height: 1.5;
         }
 
@@ -321,7 +321,7 @@ input, select, textarea {
                 margin-left:auto;
                 margin-right:auto;
                 width: 90%;
-                font-size: 1em;
+                /*font-size: 1em;*/
                 cellspacing: 0em;
                 cellpadding: 0em;
             } /*FJ*/
