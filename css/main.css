@@ -182,7 +182,7 @@ input, select, textarea {
 
         ul.icons li {
             display: inline-block;
-            font-size: 1.5em;
+            font-size: 1em;
             margin-left: 0.6em;
         }
 
@@ -191,7 +191,7 @@ input, select, textarea {
             }
 
             ul.icons li a {
-                opacity: 0.35;
+                opacity: 0.8;
                 color: #fff;
                 -moz-transition: opacity 0.25s ease-in-out;
                 -webkit-transition: opacity 0.25s ease-in-out;
@@ -321,7 +321,6 @@ input, select, textarea {
                 margin-left:auto;
                 margin-right:auto;
                 width: 90%;
-                font-size: 1em;
                 cellspacing: 0em;
                 cellpadding: 0em;
             } /*FJ*/
@@ -421,10 +420,10 @@ input, select, textarea {
             line-height: 1em;
         }
 
-        #footer h2 {
+        /*#footer h2 {
             font-size: 2.25em;
             margin: 0 0 1em 0;
-        }
+        }*/
 
         #footer .copyright li {
             display: inline-block;
