@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <title>People</title>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/mapdata_people.js"></script>
+    <script  type="text/javascript" src="../js/worldmap.js"></script>
     <script>
         $(function() {
             $('#myheader').load('header.html');
             $('#myfooter').load('footer.html');
         });
     </script>
+
+    <!-- Custom styles -->
+    <style>
+        #main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+        
+        #mainMap {
+            display: block;
+            position: relative;
+            margin: 40px auto;
+            bottom: 60px;
+            text-align: center;
+        }
+        #map{
+            min-width: 300px;
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto; /* Center the map horizontally */
+        }
+        #myfooter {
+            position: relative;
+            top: 0;
+        }
+        h3 {
+          margin-bottom: 0.2em;
+        }
+    </style>
 </head>
 
 <body class="is-preload" style="opacity: 1">
@@ -41,6 +73,11 @@
                 </tbody>
             </table>
         </article>
+    </section>
+
+    <section id="mainMap">
+        <div id="map"></div>
+        <ul>This map is created by <a href="https://simplemaps.com" target="_blank" rel="noopener noreferrer">SimpleMaps</a>.</ul>
     </section>
 
     <div id="myfooter"></div>
