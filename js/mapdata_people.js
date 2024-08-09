@@ -724,10 +724,25 @@ var simplemaps_worldmap_mapdata={
       lat: 52.6293,
       lng: 1.2979
       },
-      "22": {
+      "23": {
       name: "Bordeaux",
       lat: 44.8378,
       lng: -0.5792
+      },
+      "24": {
+      name: "Crete",
+      lat: 35.2401,
+      lng: 24.8093
+      },
+      "25": {
+      name: "Santorini",
+      lat: 36.3932,
+      lng: 25.4615
+      },
+      "26": {
+      name: "Matlock",
+      lat: 53.1407,
+      lng: 1.5466
       }
     },
   regions: {
