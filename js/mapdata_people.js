@@ -743,6 +743,12 @@ var simplemaps_worldmap_mapdata={
       name: "Matlock",
       lat: 53.1407,
       lng: 1.5466
+      },
+      "27": {
+      name: "Paris",
+      lat: 48.864716,
+      lng: 2.349014,
+      date: 10/2024 
       }
     },
   regions: {
