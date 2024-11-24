@@ -7282,8 +7282,8 @@ readers do not read off random characters that represent icons */
 .fa-fly:before {
   content: "\f417"; }
 
-.fa-square-bluesky {
-  --fa: "\e6a3"; }
+.fa-square-bluesky:before {
+  content: "\e6a3"; }
 
 .fa-aviato:before {
   content: "\f421"; }
@@ -7603,8 +7603,8 @@ readers do not read off random characters that represent icons */
 .fa-waze:before {
   content: "\f83f"; }
 
-.fa-bluesky {
-  --fa: "\e671"; }
+.fa-bluesky:before {
+  content: "\e671"; }
 
 .fa-cc-jcb:before {
   content: "\f24b"; }
