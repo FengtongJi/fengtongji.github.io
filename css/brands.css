@@ -918,6 +918,9 @@
 .fa-fly:before {
   content: "\f417"; }
 
+.fa-square-bluesky {
+  --fa: "\e6a3"; }
+
 .fa-aviato:before {
   content: "\f421"; }
 
@@ -1235,6 +1238,9 @@
 
 .fa-waze:before {
   content: "\f83f"; }
+
+.fa-bluesky {
+  --fa: "\e671"; }
 
 .fa-cc-jcb:before {
   content: "\f24b"; }
