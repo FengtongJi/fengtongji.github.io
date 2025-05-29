@@ -728,6 +728,16 @@ var simplemaps_worldmap_mapdata={
       name: "Bordeaux",
       lat: 44.8378,
       lng: -0.5792
+      },
+      "23": {
+      name: "Crete",
+      lat: 35.417416,
+      lng: 24.530005
+      },
+      "24": {
+      name: "Santorini",
+      lat: 	36.393154,
+      lng: 25.461510
       }
     },
   regions: {
